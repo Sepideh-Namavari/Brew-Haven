@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {position: relative;}
 header {
   display: flex;
   justify-content: space-between;
@@ -67,4 +68,49 @@ header {
   border: black solid 2px;
   padding: 18px;
   border-radius: 40px;
+}
+.sec11 {display: flex;
+  position: absolute;
+  width: 500px;
+height: 500px;
+}
+.sec12 {display: flex;
+  position: absolute;
+  margin-left: 623px;
+width: 1400px;
+height: 500px;
+background-color: rgb(59, 3, 3);
+}
+.sec21 {display: flex;
+  position: absolute;
+  width: 1400px;
+  height: 500px;
+  margin-top: 500px;
+  background-color: rgb(59, 3, 3);
+}
+.sec22 {display: flex;
+position: absolute;
+width: 500px;
+height: 500px;
+margin-top: 500px;
+margin-left: 1318px;
+}
+
+img {
+  width: 700px;
+height: 500px;
+}
+.sec31 {
+  display: flex;
+  position: absolute;
+  margin-top: 1000px;
+
+}
+.sec32 {display: flex;
+  position: absolute;
+  margin-left: 623px;
+  margin-top: 1000px;
+width: 1400px;
+height: 500px;
+background-color: rgb(59, 3, 3);
 }
