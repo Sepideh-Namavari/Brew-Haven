@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {position: relative;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+
+}
+header {
+    position: sticky;
+
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+  flex-direction: row;
+  width: 140px;
+  height: 120px;
+  margin-left: 40px;
+}
+.nav {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: xx-large;
+}
+#home {
+  text-decoration: none;
+  margin-right: 150px;
+
+
+}
+#reward {
+  margin-right: 100px;
+
+  text-decoration: none;
+}
+#gift {
+  margin-right: 500px;
+
+  text-decoration: none;
+}
+#sign {
+  margin-right: 100px;
+
+  text-decoration: none;
+  border: black solid 2px;
+  padding: 18px;
+  border-radius: 40px;
+}
+#join {
+  margin-right: 200px;
+  text-decoration: none;
+  border: black solid 2px;
+  padding: 18px;
+  border-radius: 40px;
+}
+
+/*-- menu--*/
+.menu {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 70px;
+    background:  rgb(59, 3, 3);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+ul {
+    list-style: none;
+    padding: 20px;
+    font-size: xx-large;
+    
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+li:last-child {
+    border-bottom: none;
+}
+.price {
+    font-weight: bold;
+}
+button { 
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
