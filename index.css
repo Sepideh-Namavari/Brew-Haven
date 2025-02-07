@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  position: relative;
+body {display: flex;
+  /* position: relative; */
   font-family: Arial, sans-serif;
   background-color: white;
   text-align: center;
@@ -58,39 +58,39 @@ header {
 }
 .line1 {
   padding-top: 120px;
+  margin-top: 20px;
 }
 
 .sec11 {
   display: flex;
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 100vw;
+  /* height: 50rem; */
+  z-index: 2;
 }
 .sec12 {
   display: flex;
   position: absolute;
-  margin-left: 623px;
-  width: 1400px;
-  height: 500px;
-  background-color: rgb(59, 3, 3);
+  margin-left: 40rem;
   width: 100vw;
+  height: 31.5rem;
+  background-color: rgb(59, 3, 3);
 }
 .sec21 {
   display: flex;
   position: absolute;
-  width: 1400px;
-  height: 500px;
-  margin-top: 500px;
-  background-color: rgb(59, 3, 3);
   width: 100vw;
+  height: 31.5rem;
+  margin-top: 45rem;
+  background-color: rgb(59, 3, 3);
 }
 .sec22 {
   display: flex;
   position: absolute;
-  width: 500px;
-  height: 500px;
-  margin-top: 500px;
-  margin-left: 1320px;
+  width: 100vw;
+  /* height: 50rem; */
+  margin-top: 45rem;
+  margin-left: 83rem;
 }
 
 img {
@@ -101,15 +101,16 @@ img {
 .sec31 {
   display: flex;
   position: absolute;
-  margin-top: 1000px;
+  width: 100vw;
+  margin-top: 80rem ;
 }
 .sec32 {
   display: flex;
   position: absolute;
-  margin-left: 623px;
-  margin-top: 1000px;
   width: 100vw;
-  height: 500px;
+  margin-left: 33rem;
+  height: 31.5rem;
+  margin-top: 80rem;
   background-color: rgb(59, 3, 3);
 }
 .p {
